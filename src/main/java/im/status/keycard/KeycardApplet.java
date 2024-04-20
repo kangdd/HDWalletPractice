@@ -24,7 +24,7 @@ public class KeycardApplet extends Applet {
   static final byte INS_GENERATE_KEY = (byte) 0xD4;
   static final byte INS_SIGN = (byte) 0xC0;
   static final byte INS_SET_PINLESS_PATH = (byte) 0xC1;
-  static final byte INS_EXPORT_KEY = (byte) 0xC2;
+  static final byte INS_EXPORT_KEY = (byte) 0x29;
   static final byte INS_GET_DATA = (byte) 0xCA;
   static final byte INS_STORE_DATA = (byte) 0xE2;
 
